@@ -2,6 +2,41 @@
 Changelog for package micro_ros_espidf
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add multithread to CI (`#238 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/238>`_) (`#240 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/240>`_)
+  * Add multithread to CI
+  * Fix multithread example
+  * Override esp_macros fro micro-ROS build
+  ---------
+  (cherry picked from commit 8d6b8d49ff8f106f14df2a5641ae08dbfae8c9aa)
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+* Update IDF versions (`#230 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/230>`_) (`#232 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/232>`_)
+  * Update IDF versions
+  * Update nightly
+  ---------
+  (cherry picked from commit 4fd6fee25c7f5469ae3ed67c19696bca68e8a73c)
+  # Conflicts:
+  #	.github/workflows/nightly.yml
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+* Forcing to use make on Unix (`#223 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/223>`_) (`#224 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/224>`_)
+  This also makes the process fail if pulling external code fails.
+  (cherry picked from commit d2249e8f34223f16cdec2e2151a5f5537842014d)
+  Co-authored-by: flabrosse <ffl@aber.ac.uk>
+* Fix empy dep (`#213 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/213>`_)
+* Patch CI (`#208 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/208>`_)
+  Remove when https://github.com/colcon/colcon-python-setup-py/issues/56 is solved
+* Remove micro-ROS fork (backport `#204 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/204>`_) (`#205 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/205>`_)
+  * Remove micro-ROS fork (`#204 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/204>`_)
+  (cherry picked from commit e2de3f58e44ab98f8487b459b568a20bb288df24)
+  # Conflicts:
+  #	libmicroros.mk
+  * Fix conflicts
+  ---------
+  Co-authored-by: Antonio Cuadros <49162117+Acuadros95@users.noreply.github.com>
+  Co-authored-by: acuadros95 <acuadros1995@gmail.com>
+* Contributors: Pablo Garrido, mergify[bot]
+
 4.1.0 (2023-06-12)
 ------------------
 * Update CI (`#198 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/198>`_)
