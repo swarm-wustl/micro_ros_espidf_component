@@ -2,6 +2,35 @@
 Changelog for package micro_ros_espidf
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add multithread to CI (backport `#238 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/238>`_) (`#239 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/239>`_)
+  * Add multithread to CI (`#238 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/238>`_)
+  * Add multithread to CI
+  * Fix multithread example
+  * Override esp_macros fro micro-ROS build
+  ---------
+  (cherry picked from commit 8d6b8d49ff8f106f14df2a5641ae08dbfae8c9aa)
+  * Fix
+  ---------
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+* Update IDF versions (`#230 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/230>`_) (`#231 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/231>`_)
+  * Update IDF versions
+  * Update nightly
+  ---------
+  (cherry picked from commit 4fd6fee25c7f5469ae3ed67c19696bca68e8a73c)
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+* Forcing to use make on Unix (`#223 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/223>`_)
+  This also makes the process fail if pulling external code fails.
+* Fix empy dep (`#213 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/213>`_) (`#215 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/215>`_)
+  (cherry picked from commit dd5108214f747780ac401ab50a2b6ae97f1480fc)
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+* Patch CI (`#208 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/208>`_) (`#209 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/209>`_)
+  Remove when https://github.com/colcon/colcon-python-setup-py/issues/56 is solved
+  (cherry picked from commit d0e63d9ab1d4b1b2777e68b715c5ea6d20ad68f4)
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+* Contributors: flabrosse, mergify[bot]
+
 3.0.1 (2023-06-12)
 ------------------
 * Add IDF 5 support and deprecate versions 4.1 and 4.2 (backport `#176 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/176>`_) (`#177 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/177>`_)
