@@ -2,6 +2,32 @@
 Changelog for package micro_ros_espidf
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add multithread to CI (`#238 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/238>`_)
+  * Add multithread to CI
+  * Fix multithread example
+  * Override esp_macros fro micro-ROS build
+  ---------
+* Update IDF versions (`#230 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/230>`_)
+  * Update IDF versions
+  * Update nightly
+  ---------
+* Forcing to use make on Unix (`#223 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/223>`_) (`#225 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/225>`_)
+  This also makes the process fail if pulling external code fails.
+  (cherry picked from commit d2249e8f34223f16cdec2e2151a5f5537842014d)
+  Co-authored-by: flabrosse <ffl@aber.ac.uk>
+* Ignore lttngpy (`#222 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/222>`_)
+* Fix empy dep (`#213 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/213>`_) (`#214 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/214>`_)
+  (cherry picked from commit dd5108214f747780ac401ab50a2b6ae97f1480fc)
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+* Patch CI (`#208 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/208>`_) (`#210 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/210>`_)
+  Remove when https://github.com/colcon/colcon-python-setup-py/issues/56 is solved
+  (cherry picked from commit d0e63d9ab1d4b1b2777e68b715c5ea6d20ad68f4)
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+* Remove micro-ROS fork (`#204 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/204>`_)
+* Contributors: Antonio Cuadros, Pablo Garrido, mergify[bot]
+
 5.0.0 (2023-06-12)
 ------------------
 * Update rolling branches (`#197 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/197>`_)
