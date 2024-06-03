@@ -2,8 +2,8 @@
 Changelog for package micro_ros_espidf
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.2 (2024-06-03)
+------------------
 * Add multithread to CI (backport `#238 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/238>`_) (`#239 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/239>`_)
   * Add multithread to CI (`#238 <https://github.com/micro-ROS/micro_ros_espidf_component/issues/238>`_)
   * Add multithread to CI
