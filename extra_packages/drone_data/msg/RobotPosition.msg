@@ -1,3 +1,2 @@
-int64 x
-int64 y
-int64 theta_rad
+geometry_msgs/Pose current_pos
+geometry_msgs/Pose target_pos
