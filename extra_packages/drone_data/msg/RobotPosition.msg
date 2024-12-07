@@ -1,3 +1,3 @@
-geometry_msgs/Pose current_pos
-geometry_msgs/Pose target_pos
-builtin_interfaces/Time stamp
+geometry_msgs/Pose current_pose
+geometry_msgs/Pose target_pose
+std_msgs/Header header
